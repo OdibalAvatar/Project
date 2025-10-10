@@ -1,0 +1,13 @@
+{
+  "name": "server",
+  "main": "index.js",
+  "compatibility_date": "2022-07-12",
+  "workers_dev": false,
+  "logs": {
+    "enabled": true
+  },
+  "route": {
+    "pattern": "tunnel.neoak.io/secure",
+    "zone_name": "neoak.io"
+  }
+}
