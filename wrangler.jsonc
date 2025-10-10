@@ -3,8 +3,9 @@
   "main": "index.js",
   "compatibility_date": "2022-07-12",
   "workers_dev": false,
-  "logs": {
-    "enabled": true
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
   },
   "route": {
     "pattern": "tunnel.neoak.io/secure",
