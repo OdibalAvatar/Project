@@ -6,7 +6,7 @@ export default {
      let email = headerData['cf-access-authenticated-user-email'];     
      let country = headerData['cf-ipcountry'];
      let lowerCountry = country.toLowerCase();
-     let countryHTML = `<a href=https://tunnel.neoak.io/secure/${lowerCountry}.png>${country}</a>`;
+     let countryHTML = `<a href=https://flags.neoak.io/secure/${lowerCountry}.png>${country}</a>`;
      let now = new Date();
      
      let HTMLResponse = `<!DOCTYPE html>
