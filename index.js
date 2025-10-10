@@ -28,9 +28,4 @@ export default {
       },
     });
   },
-
-    
-    //return new Response (newResponse, env, ctx);
-  //},
-
 };
